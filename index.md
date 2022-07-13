@@ -6,8 +6,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Scripts
 | Script  | Description  | Use  |
-|---------|--------------|------|
 
+|---------|--------------|------|
 |  ghp |  Run git add . / git commit -m "" / git push -u origin [Current Branch] | ```ghp COMMENT MESSAGE HERE```  |
 |   |   |   |
 |   |   |   |
