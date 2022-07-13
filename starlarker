@@ -1,0 +1,1 @@
+drone starlark --target .drone.yml && cat .drone.yml | yq -P -M . | tee .drone.yml > /dev/null
