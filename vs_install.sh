@@ -35,4 +35,6 @@ echo '{
             "comments": "#228B22"
         },
     },
+    "autoDocstring.docstringFormat": "one-line-sphinx",
+    "redhat.telemetry.enabled": false,
 }' > C:/Users/nhqvvcq/AppData/Roaming/Code/User/settings.json
