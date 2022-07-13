@@ -5,9 +5,10 @@ You can use the [editor on GitHub](https://github.com/williamsnash/Useful-Script
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Scripts
-| Script  | Description  | Use  |
+
 
 |---------|--------------|------|
+| Script  | Description  | Use  |
 |  ghp |  Run git add . / git commit -m "" / git push -u origin [Current Branch] | ```ghp COMMENT MESSAGE HERE```  |
 |   |   |   |
 |   |   |   |
