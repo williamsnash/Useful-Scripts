@@ -9,7 +9,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 |---------|--------------|------|
 | Script  | Description  | Use  |
-| [ghp]([https://github.com/williamsnash/Useful-Scripts]) |  Run git add . / git commit -m "" / git push -u origin [Current Branch] | ```ghp COMMENT MESSAGE HERE```  |
+| ghp |  Run git add . / git commit -m "" / git push -u origin [Current Branch] | ```ghp COMMENT MESSAGE HERE```  |
 |   |   |   |
 |   |   |   |
  
