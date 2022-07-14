@@ -1,5 +1,5 @@
-### ghp
----
+# Ghp
+
 Used to run the 3 main git commands
 Run by typing ghp followed by the commit message you would like
 ```
