@@ -1,6 +1,19 @@
-BRANCH=$(git branch | grep "*" | cut -d' ' -f2)
-COMMAND=$@
+#------------------------------------------------------------
+# Checks if the current directory is a git repository
+EXIT_CODE=0
+git branch &>/dev/null || EXIT_CODE=$?
+#------------------------------------------------------------
+if [ $EXIT_CODE -eq 0 ]; then # If the current directory is a git repository
+    BRANCH=$(git branch | grep "*" | cut -d' ' -f2) # Gets the current branch name by parsing git branch
+    COMMAND=$@ # Allows the user to set commit message
 
-git add .
-git commit -m "$COMMAND"
-git push -u origin $BRANCH
+    git add .
+    git commit -m "$COMMAND"
+    git push -u origin $BRANCH
+else # If the current directory is not a git repository
+    if [ $EXIT_CODE -eq 128 ]; then
+        echo "Directory not a git repository"
+    else
+        echo "Unknown error"
+    fi
+fi
