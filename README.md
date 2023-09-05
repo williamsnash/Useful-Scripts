@@ -1,5 +1,5 @@
 # Useful-Scripts
-A Bunch of script I have made to make my life easier
+A set of bash-based scripts I have created to solve various issues I have ran into
 
 | Script  | Description  | Use  |
 |---------|--------------|------|
